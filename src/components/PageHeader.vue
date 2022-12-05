@@ -10,12 +10,20 @@
         />
       </div>
       <div class="col-2">
-        <select name="search-select" id="search-select">
+        <select name="search-select" id="search-select" class="h-100">
           <option value="myspace">MySpace</option>
         </select>
       </div>
       <div class="col-2">
-        <button>Search</button>
+        <button class="h-100 w-100">Search</button>
+      </div>
+      <div id="google-logo-container" class="col-2">
+        <img
+          id="google-logo"
+          src="../assets/powered-by-google.png"
+          alt="Powered by Google"
+          srcset=""
+        />
       </div>
     </div>
 
@@ -39,6 +47,13 @@ export default {
 <style scoped>
 #search {
   background-color: #1c4ed8;
-  padding: 20px;
+  padding: 20px 50px 20px 10jn m, 0px;
+}
+#search-select {
+  width: 90%;
+}
+
+#google-logo {
+  width: 100px;
 }
 </style>

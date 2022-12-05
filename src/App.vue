@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="container">
     <page-header />
-    <router-view></router-view>
+    <section id="main-content">
+      <router-view></router-view>
+    </section>
   </div>
 </template>
 
@@ -18,5 +20,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#main-content {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 </style>
