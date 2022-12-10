@@ -47,7 +47,7 @@ export default {
 <style scoped>
 #search {
   background-color: #1c4ed8;
-  padding: 20px 50px 20px 10jn m, 0px;
+  padding: 20px 50px 20px 50px;
 }
 #search-select {
   width: 90%;
