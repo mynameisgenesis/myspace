@@ -77,20 +77,87 @@
         <strong>Myface URL:</strong><br />
         https://www.myface.com/genesisbelmonte
       </div>
-      <div class="contacting-genesis-container">
-        <div class="contacting-genesis-header">
-          <h5><strong>Contacting Genesis</strong></h5>
+      <div class="interests-container">
+        <div class="interests-header">
+          <h5><strong>Genesis Belmonte's Interests</strong></h5>
         </div>
-        <div class="row">
-          <div class="col contacting-options-container">
-            <div class="contacting-options-general">
-              <h5>General</h5>
-            </div>
-            <div class="contacting-options-general">
+        <div class="row mb-2 g-2">
+          <div class="col">
+            <div class="interests-left-col">
               <h5>General</h5>
             </div>
           </div>
-          <div class="col contacting-options-container"></div>
+          <div class="col">
+            <div class="interests-right-col">
+              <p>
+                Fusce sit amet pellentesque erat. Mauris rutrum fringilla ante.
+                Morbi quis arcu rhoncus, tincidunt nisi eu, venenatis dui. Nulla
+                sollicitudin blandit lorem, in fringilla diam mattis id.
+                Praesent finibus lectus quis risus ultrices elementum. Nullam
+                finibus enim nec mauris ultricies bibendum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2 g-2">
+          <div class="col">
+            <div class="interests-left-col">
+              <h5>Music</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="interests-right-col">
+              <p>
+                Rezz, Beyonce, ABBA, Prince, Tiesto, Elton John, Ariana Grande,
+                Mylie Cyrus, SZA
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2 g-2">
+          <div class="col">
+            <div class="interests-left-col">
+              <h5>Television</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="interests-right-col">
+              <p>
+                Integer ac iaculis felis. Aenean condimentum, metus id efficitur
+                aliquet, lorem tortor molestie diam, at pretium ipsum nunc eget
+                tortor. Maecenas luctus nisl purus, quis dictum ex finibus
+                congue. Nunc sed felis tellus. Cras vitae ullamcorper nisl.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2 g-2">
+          <div class="col">
+            <div class="interests-left-col">
+              <h5>Books</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="interests-right-col">
+              <p>
+                Phasellus lectus lectus, fermentum non viverra et, gravida et
+                odio. Nulla odio nunc, blandit ac erat quis, efficitur
+                vestibulum ex. Aliquam sagittis sem eget tincidunt cursus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-2 g-2">
+          <div class="col">
+            <div class="interests-left-col">
+              <h5>Heroes</h5>
+            </div>
+          </div>
+          <div class="col">
+            <div class="interests-right-col">
+              <p>Captain Janeway, Judge Judy</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
