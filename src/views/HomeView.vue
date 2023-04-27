@@ -1,25 +1,26 @@
 <template>
   <div id="homepage" class="row">
-    <div class="col">
+    <div class="col-6">
       <h5><b>Genesis Belmonte</b></h5>
       <div class="col d-inline-flex">
         <img
           id="profile-pic"
           class="d-inline"
-          src="../assets/profile-pic.jpeg"
+          src="../assets/profile-pic.png"
         />
-        <div class="px-2 w-25">
+        <div class="px-2 w-50">
           <small
             >"Don't cry because it's over smile because it happened."</small
           >
           <br /><br />
-          <small class="p-4">
+          <small>
             Female<br />30 years old<br />Pueblo West<br />COLORADO<br />United
             States
           </small>
           <br /><br />
-          <small class="profile-pic-text"> Last Login:<br /> </small>
-          <small>{{ currentDate }}</small>
+          <small class="profile-pic-text">
+            Last Login: {{ currentDate }}
+          </small>
         </div>
         <!-- <div> -->
         <!-- </div> -->
@@ -77,7 +78,8 @@
         <strong>Myface URL:</strong><br />
         https://www.myface.com/genesisbelmonte
       </div>
-      <div class="interests-container">
+      <interests-container />
+      <!-- <div class="interests-container">
         <div class="interests-header">
           <h5><strong>Genesis Belmonte's Interests</strong></h5>
         </div>
@@ -123,10 +125,8 @@
           <div class="col">
             <div class="interests-right-col">
               <p>
-                Integer ac iaculis felis. Aenean condimentum, metus id efficitur
-                aliquet, lorem tortor molestie diam, at pretium ipsum nunc eget
-                tortor. Maecenas luctus nisl purus, quis dictum ex finibus
-                congue. Nunc sed felis tellus. Cras vitae ullamcorper nisl.
+                Parks & Recreation, The Office, Community, What we do in the
+                Shadows, Bob's Burgers, American Dad,
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="col">
       <div id="extended-network-banner">
@@ -250,18 +250,36 @@
 </template>
 
 <script>
+import InterestsContainer from "@/components/InterestsContainer.vue";
 export default {
+  components: { InterestsContainer },
   data() {
     return {};
   },
   computed: {
     currentDate() {
-      var currentDateWithFormat = new Date()
-        .toJSON()
-        .slice(0, 10)
-        .replace(/-/g, "/");
-      return currentDateWithFormat.toString();
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      let mm = today.getMonth() + 1; // Months start at 0!
+      let dd = today.getDate();
+
+      if (dd < 10) dd = "0" + dd;
+      if (mm < 10) mm = "0" + mm;
+
+      const formattedToday = mm + "/" + dd + "/" + yyyy;
+
+      return formattedToday;
     },
   },
 };
 </script>
+
+<style scoped>
+#profile-pic {
+  margin-right: 20px;
+}
+.profile-pic-text {
+  position: absolute;
+  bottom: 180px;
+}
+</style>
