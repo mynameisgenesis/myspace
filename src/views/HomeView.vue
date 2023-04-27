@@ -45,29 +45,37 @@
           <div class="row">
             <div class="col contacting-options-container">
               <a class="contacting-options-container-links" href="#"
-                ><p>Send Message</p></a
+                ><img src="../assets/message.png" height="25" />&nbsp;
+                <p>Send Message</p></a
               >
               <a class="contacting-options-container-links" href="#">
+                <img src="../assets/add-friend.png" height="25" />&nbsp;
                 <p>Add to Friends</p>
               </a>
               <a class="contacting-options-container-links" href="">
+                <img src="../assets/chat.png" height="25" />&nbsp;
                 <p>Instant Message</p>
               </a>
               <a class="contacting-options-container-links" href="">
+                <img src="../assets/add-to-group.png" height="25" />&nbsp;
                 <p>Add to Group</p>
               </a>
             </div>
             <div class="col contacting-options-container">
               <a class="contacting-options-container-links" href="#">
+                <img src="../assets/forward-to-friend.png" height="25" />&nbsp;
                 <p>Forward to a Friend</p>
               </a>
               <a class="contacting-options-container-links" href="#">
+                <img src="../assets/add-to-favorites.png" height="25" />&nbsp;
                 <p>Add to Favorites</p>
               </a>
               <a class="contacting-options-container-links" href="#">
+                <img src="../assets/block-user.png" height="25" />&nbsp;
                 <p>Block user</p>
               </a>
               <a class="contacting-options-container-links" href="#">
+                <img src="../assets/rank-user.png" height="25" />&nbsp;
                 <p>Rank user</p>
               </a>
             </div>
@@ -79,87 +87,6 @@
         https://www.myface.com/genesisbelmonte
       </div>
       <interests-container />
-      <!-- <div class="interests-container">
-        <div class="interests-header">
-          <h5><strong>Genesis Belmonte's Interests</strong></h5>
-        </div>
-        <div class="row mb-2 g-2">
-          <div class="col">
-            <div class="interests-left-col">
-              <h5>General</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="interests-right-col">
-              <p>
-                Fusce sit amet pellentesque erat. Mauris rutrum fringilla ante.
-                Morbi quis arcu rhoncus, tincidunt nisi eu, venenatis dui. Nulla
-                sollicitudin blandit lorem, in fringilla diam mattis id.
-                Praesent finibus lectus quis risus ultrices elementum. Nullam
-                finibus enim nec mauris ultricies bibendum.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2 g-2">
-          <div class="col">
-            <div class="interests-left-col">
-              <h5>Music</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="interests-right-col">
-              <p>
-                Rezz, Beyonce, ABBA, Prince, Tiesto, Elton John, Ariana Grande,
-                Mylie Cyrus, SZA
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2 g-2">
-          <div class="col">
-            <div class="interests-left-col">
-              <h5>Television</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="interests-right-col">
-              <p>
-                Parks & Recreation, The Office, Community, What we do in the
-                Shadows, Bob's Burgers, American Dad,
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2 g-2">
-          <div class="col">
-            <div class="interests-left-col">
-              <h5>Books</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="interests-right-col">
-              <p>
-                Phasellus lectus lectus, fermentum non viverra et, gravida et
-                odio. Nulla odio nunc, blandit ac erat quis, efficitur
-                vestibulum ex. Aliquam sagittis sem eget tincidunt cursus.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2 g-2">
-          <div class="col">
-            <div class="interests-left-col">
-              <h5>Heroes</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="interests-right-col">
-              <p>Captain Janeway, Judge Judy</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
     <div class="col">
       <div id="extended-network-banner">
@@ -238,12 +165,6 @@
             <img src="https://placekitten.com/200/150" />
           </p>
         </div>
-        <div class="col">
-          <p class="myface-friend">
-            Friend<br />
-            <img src="https://placekitten.com/200/250" />
-          </p>
-        </div>
       </div>
     </div>
   </div>
@@ -281,5 +202,9 @@ export default {
 .profile-pic-text {
   position: absolute;
   bottom: 180px;
+}
+
+.contacting-options-container-links {
+  display: flex;
 }
 </style>
