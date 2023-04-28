@@ -7,6 +7,15 @@
   margin-top: 10px;
 }
 
+#profile-pic {
+  margin-right: 20px;
+}
+
+.profile-pic-text {
+  position: absolute;
+  bottom: 180px;
+}
+
 .pics-and-video-links,
 .contacting-options-container-links,
 .blog-page-link {
@@ -15,6 +24,7 @@
 .contacting-options-container-links {
   color: black;
   font-weight: bold;
+  display: flex;
 }
 
 .contacting-genesis-header,
