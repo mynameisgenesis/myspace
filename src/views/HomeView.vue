@@ -74,26 +74,20 @@
       <h5 class="blurbs-header">Genesis Belmonte's Blurbs</h5>
       <h5 class="blurbs-header-title">About me:</h5>
       <p>
-        Donec elementum non dolor id posuere. Maecenas tortor lorem, tempor
-        vitae leo id, ultricies mollis diam. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas. In
-        metus lorem, semper eu facilisis et, finibus in urna. Vestibulum ante
-        ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-        Curabitur iaculis, massa at placerat dictum, lorem libero viverra erat,
-        id convallis tellus est nec dolor. Phasellus non sapien at libero
-        rhoncus ultricies vel eu sapien. Suspendisse commodo lorem nisi, nec
-        lobortis turpis laoreet ac. Pellentesque at nisl nec nulla molestie
-        pharetra. Pellentesque tempus nunc nec fringilla feugiat. Aenean nec
-        aliquam urna. Nunc et libero dignissim, pretium turpis lobortis, dapibus
-        libero. Donec elementum dapibus lacinia.
+        I am a Software Engineer with {{ yearsExperience }} years experience
+        using mainly Javascript. That includes React, React Native and Vue more
+        recently. In past I have used C#, Java and some php. I've also used some
+        Kubernetes, AWS, MongoDb, SQLSERVER. <br />The best thing is 🌈✨I can
+        learn anything✨🌈!
       </p>
       <h5 class="blurbs-header-title">Who I'd like to me:</h5>
       <p>
         Praesent vitae velit libero. Ut pharetra bibendum metus nec eleifend.
-        Donec a mi at ex vestibulum dictum eget sed dui. Donec a est fringilla,
-        volutpat ligula nec, venenatis eros. In arcu urna, malesuada quis dui
-        sit amet, interdum mollis odio. Integer in risus sapien. Praesent
-        sollicitudin varius ipsum, nec malesuada felis maximus sed.
+        Donec a mi at ex vestibulum dictum eget sed dui. Donec a est
+        fringilla,✉️ volutpat ligula nec, venenatis eros. In arcu urna,
+        malesuada quis dui sit amet, interdum mollis odio. Integer in risus
+        sapien. Praesent sollicitudin varius ipsum, nec malesuada felis maximus
+        sed.
       </p>
       <h5 class="blurbs-header">Genesis Belmonte's Friend Space:</h5>
       <p>
@@ -131,9 +125,6 @@ import InterestsContainer from "@/components/InterestsContainer.vue";
 import ContactingOptions from "@/components/ContactingOptions.vue";
 export default {
   components: { InterestsContainer, ContactingOptions },
-  data() {
-    return {};
-  },
   computed: {
     currentDate() {
       const today = new Date();
@@ -147,6 +138,11 @@ export default {
       const formattedToday = mm + "/" + dd + "/" + yyyy;
 
       return formattedToday;
+    },
+    yearsExperience() {
+      const today = new Date();
+      const year = today.getFullYear();
+      return year - 2016;
     },
   },
 };
