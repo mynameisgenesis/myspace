@@ -28,11 +28,11 @@ export default {
 #nav,
 #nav > a {
   background-color: #5fa5f8;
-  color: #ffffff;
+  color: #000000;
 }
 
 #nav > a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 </style>

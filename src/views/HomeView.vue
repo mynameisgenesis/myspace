@@ -71,6 +71,25 @@
           >view more</a
         >)
       </p>
+      <p>
+        In order to fall asleep, we have to pretend to be asleep. (<a
+          class="blog-page-link"
+          href="#"
+          >view more</a
+        >)
+      </p>
+      <p>
+        Can you daydream at night? (<a class="blog-page-link" href="#"
+          >view more</a
+        >)
+      </p>
+      <p>
+        In order to fall asleep, we have to pretend to be asleep. (<a
+          class="blog-page-link"
+          href="#"
+          >view more</a
+        >)
+      </p>
       <h5 class="blurbs-header">Genesis Belmonte's Blurbs</h5>
       <h5 class="blurbs-header-title">About me:</h5>
       <p>
@@ -80,39 +99,32 @@
         Kubernetes, AWS, MongoDb, SQLSERVER. <br />The best thing is 🌈✨I can
         learn anything✨🌈!
       </p>
-      <h5 class="blurbs-header-title">Who I'd like to me:</h5>
-      <p>
-        Praesent vitae velit libero. Ut pharetra bibendum metus nec eleifend.
-        Donec a mi at ex vestibulum dictum eget sed dui. Donec a est
-        fringilla,✉️ volutpat ligula nec, venenatis eros. In arcu urna,
-        malesuada quis dui sit amet, interdum mollis odio. Integer in risus
-        sapien. Praesent sollicitudin varius ipsum, nec malesuada felis maximus
-        sed.
-      </p>
+      <h5 class="blurbs-header-title">Who I'd like to meet:</h5>
+      <p>Uplifting, fun-loving, nice people.</p>
       <h5 class="blurbs-header">Genesis Belmonte's Friend Space:</h5>
       <p>
         <strong
           >Genesis Belmonte has
-          <span class="blurbs-header-title">a gajillion</span> friends.</strong
+          <span class="blurbs-header-title">the best</span> friends.</strong
         >
       </p>
       <div class="row g-0">
         <div class="col">
           <p class="myface-friend">
-            Friend<br />
-            <img src="https://placekitten.com/200/300" />
+            Carmine (My Honey)<br />
+            <img height="350" src="../assets/carmine-profile-pic.jpeg" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend">
-            Friend<br />
-            <img src="https://placekitten.com/100/100" />
+            Dominic (My Little Baby)<br />
+            <img height="200" src="../assets/dom-profile-pic.jpeg" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend">
-            Friend<br />
-            <img src="https://placekitten.com/200/150" />
+            Lilian (My Big Baby)<br />
+            <img height="300" src="../assets/lilians-profile-pic.jpg" />
           </p>
         </div>
       </div>
@@ -147,3 +159,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+img {
+  border: #1c4ed8 solid 3px;
+}
+
+.myface-friend {
+  color: #1c4ed8;
+}
+</style>
