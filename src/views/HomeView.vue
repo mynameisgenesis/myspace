@@ -111,20 +111,20 @@
       <div class="row g-0">
         <div class="col">
           <p class="myface-friend">
-            Carmine (My Honey)<br />
-            <img height="350" src="../assets/carmine-profile-pic.jpeg" />
+            Friend<br />
+            <img src="http://placekitten.com/200/350" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend">
-            Dominic (My Little Baby)<br />
-            <img height="200" src="../assets/dom-profile-pic.jpeg" />
+            Friend<br />
+            <img src="http://placekitten.com/200/200" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend">
-            Lilian (My Big Baby)<br />
-            <img height="300" src="../assets/lilians-profile-pic.jpg" />
+            Friend<br />
+            <img src="http://placekitten.com/200/300" />
           </p>
         </div>
       </div>
