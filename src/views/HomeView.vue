@@ -38,9 +38,9 @@
         </p>
       </div>
       <contacting-options />
-      <div id="myface-url-section" class="mb-4 mt-4">
-        <strong>Myface URL:</strong><br />
-        https://www.myface.com/genesisbelmonte
+      <div id="myspace-url-section" class="mb-4 mt-4">
+        <strong>Myspace URL:</strong><br />
+        https://www.myspace.com/genesisbelmonte
       </div>
       <interests-container />
     </div>
@@ -84,11 +84,8 @@
         >)
       </p>
       <p>
-        In order to fall asleep, we have to pretend to be asleep. (<a
-          class="blog-page-link"
-          href="#"
-          >view more</a
-        >)
+        Making a typo in an online argument is the equivalent of voice cracking
+        in a verbal argument. (<a class="blog-page-link" href="#">view more</a>)
       </p>
       <h5 class="blurbs-header">Genesis Belmonte's Blurbs</h5>
       <h5 class="blurbs-header-title">About me:</h5>
@@ -110,19 +107,19 @@
       </p>
       <div class="row g-0">
         <div class="col">
-          <p class="myface-friend">
+          <p class="myspace-friend">
             Friend<br />
             <img src="http://placekitten.com/200/350" />
           </p>
         </div>
         <div class="col">
-          <p class="myface-friend">
+          <p class="myspace-friend">
             Friend<br />
             <img src="http://placekitten.com/200/200" />
           </p>
         </div>
         <div class="col">
-          <p class="myface-friend">
+          <p class="myspace-friend">
             Friend<br />
             <img src="http://placekitten.com/200/300" />
           </p>
@@ -160,11 +157,11 @@ export default {
 };
 </script>
 <style scoped>
-.myface-friend img {
+.myspace-friend img {
   border: #1c4ed8 solid 3px;
 }
 
-.myface-friend {
+.myspace-friend {
   color: #1c4ed8;
 }
 </style>
