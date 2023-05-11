@@ -1,6 +1,6 @@
 <template>
   <div id="homepage" class="row">
-    <div class="col-6">
+    <div class="col-sm-6">
       <h5><b>Genesis Belmonte</b></h5>
       <div class="col d-inline-flex">
         <img
@@ -44,7 +44,7 @@
       </div>
       <interests-container />
     </div>
-    <div class="col">
+    <div class="col-sm-6">
       <div id="extended-network-banner">
         <h4>Genesis is in your extended network.</h4>
       </div>
@@ -93,11 +93,22 @@
         I am a Software Engineer with {{ yearsExperience }} years experience
         using mainly Javascript. That includes React, React Native and Vue more
         recently. In past I have used C#, Java and some php. I've also used some
-        Kubernetes, AWS, MongoDb, SQLSERVER. <br />The best thing is 🌈✨I can
-        learn anything✨🌈!
+        Kubernetes, AWS, MongoDb, SQLSERVER. <br />
+      </p>
+      <blockquote>The best thing is 🌈✨I can learn anything✨🌈!</blockquote>
+      <p>
+        In my spare time I like to work on personal projects and/or hobbies, for
+        example: tending to my plants, working on my app, hanging out with kids
+        and husband. I am married to by bestie and we have 3 kids together. They
+        are fun and pretty cool. I don't want to get rid of them yet so that
+        must be a good sign, right 😉?
       </p>
       <h5 class="blurbs-header-title">Who I'd like to meet:</h5>
-      <p>Uplifting, fun-loving, nice people.</p>
+      <p>
+        Uplifting, fun-loving, nice people. I like to go out and have fun and
+        joke a lot. So anyone I had out with has to like lame jokes and be ok
+        looking silly.
+      </p>
       <h5 class="blurbs-header">Genesis Belmonte's Friend Space:</h5>
       <p>
         <strong
