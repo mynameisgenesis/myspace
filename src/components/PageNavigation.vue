@@ -11,9 +11,13 @@
     <router-link to="/forum">Forum</router-link> |
     <router-link to="/groups">Groups</router-link> |
     <router-link to="/events">Events</router-link> |
-    <router-link to="/videos">Videos</router-link> |
-    <router-link to="/music">Music</router-link> |
-    <router-link to="/comedy">Comedy</router-link> |
+    <router-link to="/videfos">Videos</router-link> |
+    <a
+      target="_blank"
+      href="https://open.spotify.com/user/1m38tlptf7rqbk1261c93abxp"
+      >Music</a
+    >
+    | <router-link to="/comedy">Comedy</router-link> |
     <router-link to="/classified">Classified</router-link>
   </div>
 </template>

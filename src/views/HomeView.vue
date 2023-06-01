@@ -1,6 +1,6 @@
 <template>
   <div id="homepage" class="row">
-    <div class="col-6">
+    <div class="col-sm-6">
       <h5><b>Genesis Belmonte</b></h5>
       <div class="col d-inline-flex">
         <img
@@ -38,13 +38,13 @@
         </p>
       </div>
       <contacting-options />
-      <div id="myface-url-section" class="mb-4 mt-4">
-        <strong>Myface URL:</strong><br />
-        https://www.myface.com/genesisbelmonte
+      <div id="myspace-url-section" class="mb-4 mt-4">
+        <strong>Myspace URL:</strong><br />
+        https://www.myspace.com/genesisbelmonte
       </div>
       <interests-container />
     </div>
-    <div class="col">
+    <div class="col-sm-6">
       <div id="extended-network-banner">
         <h4>Genesis is in your extended network.</h4>
       </div>
@@ -84,11 +84,8 @@
         >)
       </p>
       <p>
-        In order to fall asleep, we have to pretend to be asleep. (<a
-          class="blog-page-link"
-          href="#"
-          >view more</a
-        >)
+        Making a typo in an online argument is the equivalent of voice cracking
+        in a verbal argument. (<a class="blog-page-link" href="#">view more</a>)
       </p>
       <h5 class="blurbs-header">Genesis Belmonte's Blurbs</h5>
       <h5 class="blurbs-header-title">About me:</h5>
@@ -96,11 +93,22 @@
         I am a Software Engineer with {{ yearsExperience }} years experience
         using mainly Javascript. That includes React, React Native and Vue more
         recently. In past I have used C#, Java and some php. I've also used some
-        Kubernetes, AWS, MongoDb, SQLSERVER. <br />The best thing is 🌈✨I can
-        learn anything✨🌈!
+        Kubernetes, AWS, MongoDb, SQLSERVER. <br />
+      </p>
+      <blockquote>The best thing is 🌈✨I can learn anything✨🌈!</blockquote>
+      <p>
+        In my spare time I like to work on personal projects and/or hobbies, for
+        example: tending to my plants, working on my app, hanging out with kids
+        and husband. I am married to by bestie and we have 3 kids together. They
+        are fun and pretty cool. I don't want to get rid of them yet so that
+        must be a good sign, right 😉?
       </p>
       <h5 class="blurbs-header-title">Who I'd like to meet:</h5>
-      <p>Uplifting, fun-loving, nice people.</p>
+      <p>
+        Uplifting, fun-loving, nice people. I like to go out and have fun and
+        joke a lot. So anyone I had out with has to like lame jokes and be ok
+        looking silly.
+      </p>
       <h5 class="blurbs-header">Genesis Belmonte's Friend Space:</h5>
       <p>
         <strong
@@ -108,23 +116,31 @@
           <span class="blurbs-header-title">the best</span> friends.</strong
         >
       </p>
-      <div class="row g-0">
+      <div class="row g-1">
         <div class="col">
-          <p class="myface-friend">
-            Carmine (My Honey)<br />
+          <p class="myface-friend text-center">
+            Carm<br />
+            <img height="300" src="../assets/carmines-profile-pic.jpg" />
+          </p>
+        </div>
+        <div class="col">
+          <p class="myface-friend text-center">
+            Lilian<br />
+            <img height="200" src="../assets/lilians-profile-pic.jpg" />
+          </p>
+        </div>
+        <div class="col">
+          <p class="myface-friend text-center">
+            Dominic<br />
+            <img height="300" src="../assets/dom-profile-pic.jpeg" />
+          </p>
+        </div>
+      </div>
+      <div class="row g-1">
+        <div class="col-4">
+          <p class="myface-friend text-center">
+            Carmine<br />
             <img height="350" src="../assets/carmine-profile-pic.jpeg" />
-          </p>
-        </div>
-        <div class="col">
-          <p class="myface-friend">
-            Dominic (My Little Baby)<br />
-            <img height="200" src="../assets/dom-profile-pic.jpeg" />
-          </p>
-        </div>
-        <div class="col">
-          <p class="myface-friend">
-            Lilian (My Big Baby)<br />
-            <img height="300" src="../assets/lilians-profile-pic.jpg" />
           </p>
         </div>
       </div>
