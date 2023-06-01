@@ -160,7 +160,7 @@ export default {
 };
 </script>
 <style scoped>
-img {
+.myface-friend img {
   border: #1c4ed8 solid 3px;
 }
 
