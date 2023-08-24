@@ -2,28 +2,24 @@
   <div id="homepage" class="row">
     <div class="col-sm-6">
       <h5><b>Genesis Belmonte</b></h5>
-      <div class="col d-inline-flex">
-        <img
-          id="profile-pic"
-          class="d-inline"
-          src="../assets/profile-pic.png"
-        />
-        <div class="px-2 w-50">
-          <small
-            >"Don't cry because it's over smile because it happened."</small
-          >
-          <br /><br />
-          <small>
-            Female<br />30 years old<br />Pueblo West<br />COLORADO<br />United
-            States
-          </small>
-          <br /><br />
-          <small class="profile-pic-text">
-            Last Login: {{ currentDate }}
-          </small>
+      <div class="col">
+        <div class="row g-0">
+          <img id="profile-pic" class="col" src="../assets/profile-pic.png" />
+          <div class="col">
+            <small
+              >"Don't cry because it's over smile because it happened."</small
+            >
+            <br /><br />
+            <small>
+              Female<br />30 years old<br />Pueblo West<br />COLORADO<br />United
+              States
+            </small>
+            <br /><br />
+            <small class="profile-pic-text">
+              Last Login: {{ currentDate }}
+            </small>
+          </div>
         </div>
-        <!-- <div> -->
-        <!-- </div> -->
       </div>
       <div id="under-photo-section">
         <p>
@@ -145,6 +141,11 @@ import InterestsContainer from "@/components/InterestsContainer.vue";
 import ContactingOptions from "@/components/ContactingOptions.vue";
 export default {
   components: { InterestsContainer, ContactingOptions },
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    };
+  },
   computed: {
     currentDate() {
       const today = new Date();
