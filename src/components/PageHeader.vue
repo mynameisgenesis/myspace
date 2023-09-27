@@ -20,7 +20,7 @@
       <div id="google-logo-container" class="col-2">
         <img
           id="google-logo"
-          src="../assets/powered-by-google.png"
+          src="../assets/images/powered-by-google.png"
           alt="Powered by Google"
           srcset=""
         />

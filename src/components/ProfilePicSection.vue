@@ -2,7 +2,11 @@
   <h5>Jessica <b>Genesis Belmonte</b></h5>
   <div class="col">
     <div class="col d-inline-flex">
-      <img id="profile-pic" class="d-inline" src="../assets/profile-pic.jpeg" />
+      <img
+        id="profile-pic"
+        class="d-inline"
+        src="../assets/images/profile-pic.jpeg"
+      />
       <div class="px-2 w-25">
         <small>"Don't cry because it's over smile because it happened."</small>
         <br /><br />

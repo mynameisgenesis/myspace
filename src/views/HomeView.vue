@@ -4,7 +4,11 @@
       <h5><b>Genesis Belmonte</b></h5>
       <div class="col">
         <div class="row g-0">
-          <img id="profile-pic" class="col" src="../assets/profile-pic.png" />
+          <img
+            id="profile-pic"
+            class="col"
+            src="../assets/images/profile-pic.png"
+          />
           <div class="col">
             <small
               >"Don't cry because it's over smile because it happened."</small
@@ -116,19 +120,19 @@
         <div class="col">
           <p class="myface-friend text-center">
             Carm<br />
-            <img height="300" src="../assets/carmines-profile-pic.jpg" />
+            <img height="300" src="../assets/images/carmines-profile-pic.jpg" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend text-center">
             Lilian<br />
-            <img height="200" src="../assets/lilians-profile-pic.jpg" />
+            <img height="200" src="../assets/images/lilians-profile-pic.jpg" />
           </p>
         </div>
         <div class="col">
           <p class="myface-friend text-center">
             Dominic<br />
-            <img height="300" src="../assets/dom-profile-pic.jpeg" />
+            <img height="300" src="../assets/images/dom-profile-pic.jpeg" />
           </p>
         </div>
       </div>
@@ -136,7 +140,7 @@
         <div class="col-4">
           <p class="myface-friend text-center">
             Carmine<br />
-            <img height="350" src="../assets/carmine-profile-pic.jpeg" />
+            <img height="350" src="../assets/images/carmine-profile-pic.jpeg" />
           </p>
         </div>
       </div>

@@ -12,6 +12,17 @@ import PageHeader from "./components/PageHeader.vue";
 export default {
   components: { PageHeader },
   name: "App",
+  computed: {
+    backgroundImage() {
+      switch (this.$route.name) {
+        case "Home":
+          return null;
+        case "Contact":
+          return require("./assets/win95/clouds2.jpg");
+      }
+      return null;
+    },
+  },
 };
 </script>
 
