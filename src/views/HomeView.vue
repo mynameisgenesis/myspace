@@ -15,7 +15,7 @@
             >
             <br /><br />
             <small>
-              Female<br />30 years old<br />Pueblo West<br />COLORADO<br />United
+              Female<br />33 years old<br />Las Vegas<br />NEVADA<br />United
               States
             </small>
             <br /><br />

@@ -2,7 +2,7 @@
   <div id="nav" class="text-center">
     <router-link to="/">Home</router-link> |
     <router-link to="/browse">Browse</router-link> |
-    <router-link to="/search">Search</router-link> |
+    <a href="https://google.com">Search</a> |
     <router-link to="/invite">Invite</router-link> |
     <router-link to="/film">Film</router-link> |
     <router-link to="/mail">Mail</router-link> |
@@ -18,7 +18,9 @@
       >Music</a
     >
     | <router-link to="/comedy">Comedy</router-link> |
-    <router-link to="/classified">Classified</router-link>
+    <a target="_blank" href="https://optical.toys/are-they-moving-rainbows/"
+      >Classified</a
+    >
   </div>
 </template>
 
