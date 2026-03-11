@@ -128,7 +128,7 @@
         <div class="col">
           <p class="myface-friend text-center">
             Lilian<br />
-            <img height="200" src="../assets/images/lilians-profile-pic.jpg" />
+            <img height="200" src="../assets/images/lilians-profile-pic.jpeg" />
           </p>
         </div>
         <div class="col">
@@ -144,14 +144,14 @@
           </p>
         </div>
       </div>
-      <!-- <div class="row g-1">
+      <div class="row g-1">
         <div class="col-4">
           <p class="myface-friend text-center">
-            Carmine<br />
-            <img height="200" src="../assets/images/carmine-profile-pic.jpeg" />
+            Angela<br />
+            <img height="200" src="../assets/images/angela-profile-pic.jpeg" />
           </p>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
