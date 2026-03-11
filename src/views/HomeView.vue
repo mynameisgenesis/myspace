@@ -119,12 +119,12 @@
         >
       </p>
       <div class="row g-1">
-        <div class="col">
+        <!-- <div class="col">
           <p class="myface-friend text-center">
             Carm<br />
             <img height="300" src="../assets/images/carmines-profile-pic.jpg" />
           </p>
-        </div>
+        </div> -->
         <div class="col">
           <p class="myface-friend text-center">
             Lilian<br />
@@ -134,18 +134,24 @@
         <div class="col">
           <p class="myface-friend text-center">
             Dominic<br />
-            <img height="300" src="../assets/images/dom-profile-pic.jpeg" />
+            <img height="200" src="../assets/images/dom-profile-pic.jpeg" />
           </p>
         </div>
-      </div>
-      <div class="row g-1">
         <div class="col-4">
           <p class="myface-friend text-center">
             Carmine<br />
-            <img height="350" src="../assets/images/carmine-profile-pic.jpeg" />
+            <img height="200" src="../assets/images/carmine-profile-pic.jpeg" />
           </p>
         </div>
       </div>
+      <!-- <div class="row g-1">
+        <div class="col-4">
+          <p class="myface-friend text-center">
+            Carmine<br />
+            <img height="200" src="../assets/images/carmine-profile-pic.jpeg" />
+          </p>
+        </div>
+      </div> -->
     </div>
   </div>
 </template>
