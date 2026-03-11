@@ -7,7 +7,7 @@
           <img
             id="profile-pic"
             class="col"
-            src="../assets/images/profile-pic.png"
+            src="../assets/images/profile-pic.jpg"
           />
           <div class="col">
             <small
