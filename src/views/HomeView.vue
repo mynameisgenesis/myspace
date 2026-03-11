@@ -90,24 +90,27 @@
       <h5 class="blurbs-header">Genesis Belmonte's Blurbs</h5>
       <h5 class="blurbs-header-title">About me:</h5>
       <p>
-        I am a Software Engineer with {{ yearsExperience }} years experience
-        using mainly Javascript. That includes React, React Native and Vue more
-        recently. In past I have used C#, Java and some php. I've also used some
-        Kubernetes, AWS, MongoDb, SQLSERVER. <br />
+        I'm a Software Engineer with {{ yearsExperience }} years of experience,
+        specializing primarily in JavaScript — including React, React Native,
+        and more recently Vue. My background also spans C#, Java, and PHP, with
+        additional hands-on experience in Kubernetes, AWS, MongoDB, and SQL
+        Server.. <br />
       </p>
-      <blockquote>The best thing is 🌈✨I can learn anything✨🌈!</blockquote>
+      <blockquote>
+        One of my greatest strengths is my ability to pick up new technologies
+        quickly and adapt to evolving environments.
+      </blockquote>
       <p>
-        In my spare time I like to work on personal projects and/or hobbies, for
-        example: tending to my plants, working on my app, hanging out with kids
-        and husband. I am married to by bestie and we have 3 kids together. They
-        are fun and pretty cool. I don't want to get rid of them yet so that
-        must be a good sign, right 😉?
+        Outside of work, I enjoy tending to my plants, building personal
+        projects, and spending time with my husband and our three kids. Life is
+        full and fun — which I'd say is a pretty good sign.
       </p>
       <h5 class="blurbs-header-title">Who I'd like to meet:</h5>
       <p>
-        Uplifting, fun-loving, nice people. I like to go out and have fun and
-        joke a lot. So anyone I had out with has to like lame jokes and be ok
-        looking silly.
+        I'm drawn to positive, energetic people who don't take themselves too
+        seriously. I love to laugh, tell a terrible joke or two, and genuinely
+        enjoy the company I keep — so a good sense of humor and a willingness to
+        be a little silly are a must.
       </p>
       <h5 class="blurbs-header">Genesis Belmonte's Friend Space:</h5>
       <p>
