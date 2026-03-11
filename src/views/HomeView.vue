@@ -91,10 +91,10 @@
       <h5 class="blurbs-header-title">About me:</h5>
       <p>
         I'm a Software Engineer with {{ yearsExperience }} years of experience,
-        specializing primarily in JavaScript — including React, React Native,
-        and more recently Vue. My background also spans C#, Java, and PHP, with
-        additional hands-on experience in Kubernetes, AWS, MongoDB, and SQL
-        Server.. <br />
+        specializing primarily in JavaScript including React, React Native, and
+        more recently Vue. My background also spans C#, Java, Python and PHP,
+        with additional hands-on experience in Docker, Kubernetes, AWS, MongoDB,
+        and SQL Server. <br />
       </p>
       <blockquote>
         One of my greatest strengths is my ability to pick up new technologies
@@ -102,8 +102,7 @@
       </blockquote>
       <p>
         Outside of work, I enjoy tending to my plants, building personal
-        projects, and spending time with my husband and our three kids. Life is
-        full and fun — which I'd say is a pretty good sign.
+        projects, and spending time with my husband and our three kids.
       </p>
       <h5 class="blurbs-header-title">Who I'd like to meet:</h5>
       <p>
